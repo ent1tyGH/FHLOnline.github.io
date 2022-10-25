@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SHOP LINKS | FHLVirtualVenture</title>
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+            <li><a href="ShopLink.html">Shop Links</a></li>
+            <li><a href="ContactInfo.html">Contact Information</a></li>
+        </ul>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+
+    <style>
+        ul{
+            list-style: none
+        }
+        .showcase{
+            padding: 5em;
+        }
+    </style>
+
+<div class="ShopLink">
+    <ul>
+
+    <li>
+        <a href="http://www.toktok.ph/delivery/00466333">
+            <img alt="TokTok" src="Toktok.png">
+         </a>
+    </li>
+
+     <li>
+         <a href="http://www.toktokmall.ph/00466333">
+            <img alt="TokTokMall" src="ToktokMall.png">
+         </a>
+     </li>
+
+     <li>
+        <a href="http://www.siomaiking.ph/ordernow/00466333">
+            <img alt="siomaiking" src="Siomaiking.png">
+         </a>
+     </li>
+
+     <li>
+        <a href="https://ninjaph.com/cpshop/00466333">
+            <img alt="ninjaion" src="NinjaIon.png">
+         </a> 
+     </li>
+          
+     <li>
+        <a href="http://www.coppermask.ph/cpshop/00466333">
+            <img alt="Coppermask" src="Coppermask.png">
+         </a> 
+     </li>
+
+     <li>
+        <a href="http://www.jcshop.ph/00466333">
+            <img alt="JClife" src="JCLife.png">
+         </a> 
+     </li>
+</ul>
+</div>
+</body>
+</html>

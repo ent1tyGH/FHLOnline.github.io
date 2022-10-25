@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HOME | FHLVirtualVenture</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <img src="F H L.png" alt="F H L Virtual Venture Logo" width="170px" height="170px">
+            <div class="toggle" style="filter:invert(1)"></div>
+        </header>
+
+        <video src="My video.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+
+        <div class="text">
+            <a href="AboutUs.html">Learn More</a>
+        </div>
+        <ul class="social">
+            <li><a href="https://www.facebook.com/FHLVirtualVenture/" target="_blank"><img src="facebook.png" alt="Facebook Logo" height="10%" width="10%"></a></li>
+        </ul>
+    </section>
+    <div class="menu">
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+            <li><a href="ShopLink.html">Shop Links</a></li>
+            <li><a href="ContactInfo.html">Contact Information</a></li>
+        </ul>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+
+</body>
+</html>
